@@ -6,16 +6,17 @@ function toggleMenu() {
 }
 
 function toggleDropdown(id) {
-    var content = document.getElementById(id);
-    var button = content.previousElementSibling.querySelector('.dropdown-btn');
-    
-    if (content.style.display === "block") {
-      content.style.display = "none";
-      button.classList.remove('open');
-    } else {
-      content.style.display = "block";
-      button.classList.add('open');
+  const allDropdowns = document.querySelectorAll(".dropdown-content");
+  allDropdowns.forEach((dropdown) => {
+    if (dropdown.id !== id) {
+      dropdown.classList.remove("show");
     }
-  }
+  });
+
+  const dropdown = document.getElementById(id);
+  dropdown.classList.toggle("show");
+}
+
   
+
   

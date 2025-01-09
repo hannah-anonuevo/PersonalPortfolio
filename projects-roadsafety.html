@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exploring Road Safety Dynamics in the Metropolitan Manila</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="stylesheet" href="road_style.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">Hannah Anonuevo</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#experience">Experience</a></li>
+          <li><a href="index.html#professional_projects">Projects</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Hannah Anonuevo</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="index.html#professional_projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <section id="project__roadsafety">
+
+      <section id="roadsafety-abstract"> 
+        <p class="road__abstract__title">Exploring Road Safety Dynamics in the Metropolitan Manila</p>
+        <div class="project__roadsafety__overview">
+          <img src="./assets/roadsafety_banner.gif" alt="Road Safety Banner" />
+        </div>
+        <div class="project__text__overview">
+          <h1 class="project_title">Abstract of the Paper</h1>
+        <p class="project__text__overview">
+            In response to the 2030 United Nations Sustainable Development Goals, this inquiry examined the trends and factors influencing the road safety in Metro Manila, Philippines through a time series modeling approach.  Various studies and reports have pointed out that road accidents are one of the highest causes of morbidity and fatalities in the country.  Since, commuting in the country using various private and public transportation means became integral part of any Filipino citizen for the past years.  Consequently, this inquiry adapted an appropriate research design to explore the road safety dynamics over a period of time.  Appropriate data mining and analyzing tools were used based on relevant open datasets.  Time series analysis unveils an upward trend in road traffic fatalities if no intervention programs were continuously implemented.  Furthermore, seasonal events and weather conditions were identified to be contributing factors to this observed trend.   Recommendations are presented to improve road safety dynamics in addition to existing programs, guidelines, and policies being implemented. 
+        </div>
+        <div class="btn-container">
+            <button
+              class="btn btn-color-2"
+              onclick="window.open('./assets/roadsafety.pdf')"
+            >
+              Read Full Paper Here
+            </button>
+        </div>
+        <img
+        src="./assets/github.png"
+        alt="My Github profile"
+        class="icon"
+        onclick="location.href='https://github.com/hannah-anonuevo/road_safety_mm'"
+        />
+      </section>
+    
+      <section id="road-overview">
+        <p class="road__overview__title">Key Highlights:</p>
+        <div class="project__text__road">
+            <h1> <bold>Data Collection and Preparation: </bold> </h1>  
+            <p>
+                Analyzed extensive datasets from the Metro Manila Accident Reporting and Analysis System (MMARAS), ensuring data quality through thorough preprocessing techniques, including data cleansing and refinement.        
+            </p>
+            <h1> <bold>Statistical Modeling and Forecasting:  </bold> </h1>  
+            <p>
+                Utilized time series analysis and predictive modeling techniques, such as ARIMA, to explore trends in road traffic crashes and anticipate future occurrences.      
+            </p>
+            <h1> <bold>Data Visualization </bold> </h1>  
+            <p>
+                Designed clear and impactful visualizations, including line charts and heatmaps, to illustrate traffic patterns, highlight seasonal variations, and identify areas with higher crash incidences.        
+            </p>
+            <h1> <bold>Identifying Risk Factors: </bold> </h1>  
+            <p>
+                Investigated the role of infrastructure, human behavior, and external conditions in influencing road safety, with a detailed analysis of major roads in Metro Manila.     
+            </p>
+        </div>
+      </section>
+    </section>
+    
+
+    </section>
+
+    <section id="skills">
+      <h1 class="title">Involved Skills</h1>
+      <div class="skills-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title"></h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Python </h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Google Sheets</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Visualization </h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Cleansing </h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h3>Data Analysis </h3>
+                </div>
+              </article>
+            </div>
+          </div>
+      </div>
+
+    </section>
+
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+          <div class="contact-info-container">
+            <img
+              src="./assets/email.png"
+              alt="Email icon"
+              class="icon contact-icon email-icon"
+            />
+            <p><a href="mailto:hannah.m.anonuevo@gmail.com">hannah.m.anonuevo@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img
+              src="./assets/linkedin.png"
+              alt="LinkedIn icon"
+              class="icon contact-icon"
+            />
+            <p><a href="https://www.linkedin.com">LinkedIn</a></p>
+          </div>
+        </div>
+      </section>
+
+
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#experience">Experience</a></li>
+            <li><a href="index.html#professional_projects">Projects</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

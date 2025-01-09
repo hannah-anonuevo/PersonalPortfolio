@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
+    <title>ESG</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="mediaqueries.css" />
     <link rel="stylesheet" href="esg_style.css" />
@@ -16,7 +16,7 @@
         <ul class="nav-links">
           <li><a href="index.html#about">About</a></li>
           <li><a href="index.html#experience">Experience</a></li>
-          <li><a href="index.html#projects">Projects</a></li>
+          <li><a href="index.html#professional_projects">Projects</a></li>
           <li><a href="index.html#contact">Contact</a></li>
         </ul>
       </div>
@@ -32,31 +32,64 @@
         <div class="menu-links">
           <li><a href="index.html#about" onclick="toggleMenu()">About</a></li>
           <li><a href="index.html#experience" onclick="toggleMenu()">Experience</a></li>
-          <li><a href="index.html#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="index.html#professional_projects" onclick="toggleMenu()">Projects</a></li>
           <li><a href="index.html#contact" onclick="toggleMenu()">Contact</a></li>
         </div>
       </div>
     </nav>
-    <section id="dti-overview">
-      <p> DTI Workshop </p>  
-      <div class="project__pic-container">
-        <img src="./assets/dti_banner.jpg" alt="DTI Main Picture" />
-      </div>
-      <div class="project__text">
-        <h1 class="project_title">DTI Workshops </h1>
-        <p class="project__text__p1">eufiobeiuebgwbpgibsoboaoawbv </p>
-      </div>
-      <section id="dti-chatbot"> 
-        <div class="project__dti_chatbot">
-            <img src="./assets/dti_chatbot.jpg" alt="DTI Chatbot" />
-          </div>
+
+    <section id="project__esg">
+
+      <section id="esg-overview"> 
+        <p class="esg__overview__title">ESG Scoring System</p>
+        <div class="project__esg__overview">
+          <img src="./assets/esg_banner.png" alt="ESG Banner" />
+        </div>
+        <div class="project__text__overview">
+          <h1 class="project_title">Overview of the System</h1>
+        <p class="project__text__overview">
+          The ESG Scoring System is a key component of a two-part initiative aimed at incorporating Environmental, Social, and Governance (ESG) factors into the traditional credit scoring framework. This innovative approach seeks to provide a more well-rounded evaluation of a borrower’s creditworthiness by integrating sustainability metrics alongside financial data.
+          The system focuses on three core pillars of ESG: Environmental, Social, and Governance. Each pillar is assessed using five Key Performance Indicators (KPIs), carefully chosen to reflect critical aspects of sustainable practices. These KPIs form the foundation for ESG ratings, enabling Development Financing Institutions (DFIs) to benchmark and improve their sustainability performance.
+        </p>  
+        </div>
       </section>
-      <section id="dti-bmbe"> 
-        <div class="project__dti_bmbe">
-            <img src="./assets/dti_bmbe.jpg" alt="DTI BMBE" />
-          </div>
+
+      <section id="esg-bali">
+        <p class="esg__bali__title">Presentation of the System to the Public</p>
+        <div class="project__esg__bali">
+          <img src="./assets/esg_bali.jpg" alt="ESG Bali" />
+        </div>
+        <div class="project__text__bali">
+          <p class="p__bali">
+            The ESG Scoring System was officially introduced to the public at the ADFIAP International CEO Forum in Bali, Indonesia. This prestigious event brought together key leaders from the finance and sustainability sectors, offering a valuable platform for sharing innovative solutions for sustainable development.
+            During the forum, the system was showcased as an advanced tool for evaluating the sustainability practices of financial institutions. The presentation included a comprehensive demonstration of the system's features, focusing on how it helps institutions track, measure, and improve their environmental, social, and governance performance. It also provided an excellent opportunity to highlight how the system could drive better decision-making and promote sustainability within the finance sector.
+          </p>
+          <p>For more information on the project, you may watch the live recording of the CEO Forum on YouTube below:</p>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/wxlc5XtXYqI?start=4082" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br>
+          <p>Or using this link:</p>
+          <a href="https://www.youtube.com/watch?v=wxlc5XtXYqI&t=4163s" target="_blank">ADFIAP International CEO Forum XVII (1:08:22)</a>
+        </div>
+      </section>
+    
+      <section id="esg-office">
+        <p class="esg__office__title">My Role in the Project</p>
+        <div class="project__esg__office">
+          <img src="./assets/esg_office.jpg" alt="ESG Office" />
+        </div>
+        <div class="project__text__role">
+          <p>
+            As the sole Data Analyst and Power BI Developer on the team, I played a pivotal role in a variety of tasks essential to the success of the project. My responsibilities included developing a framework and implementing methods to assess and measure the sustainability of Department Financing Institutions, ensuring the accuracy and relevance of the collected data. I was also responsible for the development of detailed dashboards and comprehensive reports, which were delivered to clients, providing them with valuable insights and actionable data.
+          </p>
+          <p>
+            In addition, I was entrusted with assisting in the design and development of the assessment form used to collect data from respondents. This involved close collaboration with other team members to ensure the questions were clear, relevant, and aligned with international sustainability standards. My contributions helped streamline the data collection process, ensuring that the final results were reliable and actionable.
+          </p>
+        </div>
       </section>
     </section>
+    
+
+    </section>
+
     <section id="skills">
       <h1 class="title">Involved Skills</h1>
       <div class="skills-details-container">
@@ -127,63 +160,9 @@
             </div>
           </div>
       </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#projects'"
-      />
+
     </section>
-    <section id="projects">
-      <p class="section__text__p1">Browse My Recent</p>
-      <h1 class="title">Professional Projects</h1>
-      <div class="experience-details-container">
-        <div class="about-containers">
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-1.png"
-                alt="Project 1"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">ESG Scoring System</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='projects-esg.html'"
-              >
-                Read More
-              </button>
-            </div>
-          </div>
-          <div class="details-container color-container">
-            <div class="article-container">
-              <img
-                src="./assets/project-2.png"
-                alt="Project 2"
-                class="project-img"
-              />
-            </div>
-            <h2 class="experience-sub-title project-title">DTI Workshop</h2>
-            <div class="btn-container">
-              <button
-                class="btn btn-color-2 project-btn"
-                onclick="location.href='projects-dti.html'"
-              >
-                Read More
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <img
-        src="./assets/arrow.png"
-        alt="Arrow icon"
-        class="icon arrow"
-        onclick="location.href='./#contact'"
-      />
-    </section>
+
     <section id="contact">
       <p class="section__text__p1">Get in Touch</p>
       <h1 class="title">Contact Me</h1>
@@ -206,13 +185,15 @@
         </div>
       </div>
     </section>
+
+
     <footer>
       <nav>
         <div class="nav-links-container">
           <ul class="nav-links">
             <li><a href="index.html#about">About</a></li>
             <li><a href="index.html#experience">Experience</a></li>
-            <li><a href="index.html#projects">Projects</a></li>
+            <li><a href="index.html#professional_projects">Projects</a></li>
             <li><a href="index.html#contact">Contact</a></li>
           </ul>
         </div>
